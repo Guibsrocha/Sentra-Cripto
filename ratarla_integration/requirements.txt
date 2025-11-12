@@ -1,0 +1,35 @@
+# RatarlA Squad - Dependências Python
+
+# Freqtrade (framework principal)
+freqtrade>=2023.1
+
+# Análise Técnica
+TA-Lib>=0.4.24
+pandas>=1.5.0
+numpy>=1.23.0
+
+# APIs e Web
+requests>=2.28.0
+ccxt>=4.0.0
+
+# LLM e IA
+openai>=1.0.0  # Para OpenRouter compatibility
+
+# Database
+sqlalchemy>=2.0.0
+
+# Logging e Monitoring
+python-telegram-bot>=20.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# Testing (opcional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Desenvolvimento (opcional)
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
